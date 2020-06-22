@@ -1,7 +1,9 @@
 import React from 'react'
+import SurvivalCurve from './SurvivalCurve/SurvivalCurve'
+import data from './data/TNMStage'
 
 function App() {
-  return <h1>React D3 Survival Curve</h1>
+  return <SurvivalCurve data={data} />
 }
 
 export default App
